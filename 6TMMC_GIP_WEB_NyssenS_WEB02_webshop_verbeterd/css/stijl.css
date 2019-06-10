@@ -1,0 +1,959 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+img{
+
+width: 100%;  
+ line-height: 0%; 
+
+}
+body{
+
+ margin:0;    
+padding: 0;  
+font-family: Arial, "sans-serif";
+
+
+
+}
+
+header{
+
+    
+                            
+ }
+
+ .nav{
+    
+    text-align:center;
+    background-color: white;
+
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+    text-decoration: none;
+    color: black;
+    padding: 3%;
+    font-family: "Open Sans Condensed";
+    text-transform: uppercase;
+
+}
+
+
+.nav a:hover{
+    
+ color: #cdc0b0;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.nav>li>img{
+    width: 3%;
+   padding-top: 2%;
+
+}
+
+
+
+#winkelkarretje img{
+
+
+width: 3%;
+margin-left: 88%;µ
+	display: flex;
+	flex-direction: row;
+
+
+}
+
+
+
+
+
+
+
+
+.intro{
+
+background-image: url("../img/foto1.jpeg");                                    
+    background-repeat: no-repeat;                       
+    height: 44vw;  
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+                                      
+
+
+
+
+}
+
+
+
+.container {
+  position: relative;
+  width: 10%;
+	
+}
+
+.container>p {
+  text-align: center;
+	padding-top: 4%;
+	font-family: "Open Sans Condensed";
+	font-size: 20px;
+}	
+	
+	
+	
+	
+	
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ececec;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+h1{
+
+font-size: 4em;
+font-family: "bebas neue";   
+color: black;
+ text-align: left;
+padding-top: 3%;
+	
+		padding-left: 10%;
+
+
+
+
+}
+
+h2{
+
+font-size: 2em;
+font-family: "bebas neue";   
+color: black;
+ text-align: left;
+padding-top: 1%;
+padding-bottom: 5%;
+	padding-left: 10%;
+
+
+}
+
+
+hr{
+margin-left: 4%;
+	margin-right: 50%;
+	
+	
+	
+}
+
+
+#section1>p{
+
+text-align: left;
+font-size: 1em;
+font-family: "arial";
+width: 30%;
+padding-top: 5%;
+margin-left: 10%;
+padding-bottom: 8%;
+}
+
+
+
+
+#foto8 {
+    background-image: url(../img/foto7.jpeg);
+    height: 30vw;
+    min-height: 200px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+#section2>p{
+
+text-align: right;
+font-size: 1em;
+font-family: "arial";
+width: 30%;
+padding-top: 7%;
+margin-left: 50%;
+padding-bottom: 8%;
+}
+
+#foto9 {
+    background-image: url("../img/foto4.jpeg");
+    height: 30vw;
+    min-height: 200px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+#section3>p{
+
+text-align: left;
+font-size: 1em;
+font-family: "arial";
+width: 30%;
+padding-top: 7%;
+margin-left: 5%;
+padding-bottom: 8%;
+}
+
+
+
+
+#foto10 {
+    background-image: url("../img/foto2.jpeg");
+    height: 30vw;
+    min-height: 200px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+div.gallery {
+  border: 1px solid #ccc;
+	padding-top: 10%
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+	background-color: #f2f2f2;
+}
+
+div.gallery img {
+  width: 50%;
+  height: auto;
+	margin-left: 25%;
+
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+
+.footer-basic-centered{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: normal 18px sans-serif;
+
+	padding: 45px;
+	margin-top: 80px;
+}
+
+.footer-basic-centered .footer-company-motto{
+	color:  #8d9093;
+	font-size: 24px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-links{
+	list-style: none;
+	font-weight: bold;
+	color:  #ffffff;
+	padding: 35px 0 23px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-links a{
+	display:inline-block;
+	text-decoration: none;
+	color: inherit;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+	.footer-basic-centered{
+		padding: 35px;
+	}
+
+	.footer-basic-centered .footer-company-motto{
+		font-size: 18px;
+	}
+
+	.footer-basic-centered .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-basic-centered .footer-links{
+		font-size: 14px;
+		padding: 25px 0 20px;
+	}
+
+	.footer-basic-centered .footer-links a{
+		line-height: 1.8;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: white;
+	color:black;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  
+  background-color: #5c343f;
+  padding: 20px;
+	width: 60%;
+	margin-left: 10%;
+	margin-top: 5%;
+	border-radius: 15px; 
+	display: flex;
+	flex-direction: row wrap;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+.product{
+	
+	display: flex;
+	flex-direction: row wrap;
+	justify-content: space-between;
+	width: 90%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	
+	
+	
+	
+	}
+
+
+
+.info{
+	
+	width: 30%;
+	margin-top: 5%;
+	
+	}
+
+
+.info>h1{
+	
+	margin-bottom: 2%;
+	font-family: "bebas neue";
+	text-align: left;
+	}
+
+.info>p{
+	
+	
+	padding-top: 10%;
+	width: 45%;
+	
+	text-align: left;
+	}
+
+.merk{
+	
+font-weight: 200;
+	font-family: "bebas neue";
+	text-align: left;
+	
+	
+	
+}
+
+
+
+
+.info>ul>li{
+	
+	
+	
+	
+}
+
+
+
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;li{
+	
+	padding-top: 5%;
+	
+	
+}
+
+.prijs{
+	
+font-weight: 200;
+	font-family: "bebas neue";
+	text-align: left;
+	
+	
+	
+	
+}
+
+
+class*="entypo-"]:before { font-family: 'entypo', sans-serif; }
+body {
+  background-color: #ecf0f1;
+  font: 300 1.25em/1.4 "Lato", sans-serif;
+  color: #686868;
+}
+ 
+.sub-heading {
+  font-size: .75em;
+  font-weight: 300;
+}
+
+/**
+ * @section: utilities;
+ * @see: Justify Grid [http://justifygrid.com/]
+ */
+._grid {
+  text-align: justify !important;
+  text-justify: distribute-all-lines;
+  font-size: 0 !important;
+  text-rendering: optimizespeed;
+}
+._grid:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+._column {
+  display: inline-block;
+  vertical-align: top;
+  font-size: medium;
+  text-align: left;
+  text-rendering: optimizeLegibility;
+}
+._btn {
+  display: inline-block;
+  background-color: #bdc3c7;
+  border: none;
+  padding: .5em .75em;
+  text-align: center;
+  font-weight: 300;
+}
+._btn:hover,
+.cart-totals:hover ._btn {
+  background-color: #3498db;
+  color: #ecf0f1;
+}
+
+/**
+ * @section: shopping-cart;
+ */
+.shopping-cart {
+  width: 80%;
+  max-width: 60rem;
+  margin: 0 auto;
+}
+/**
+ * @extends: _grid;
+ */
+.shopping-cart--list-item {
+  border: 1px solid #bdc3c7;
+  margin-bottom: 3rem;
+  height: 10rem;
+  overflow: hidden;
+}
+.shopping-cart--list-item:hover,
+.shopping-cart--list-item:hover * {
+  border-color: #3498db;
+}
+.shopping-cart--list-item > ._column {
+    height: 100%; /* make vertical lines match */
+}
+
+/**
+ * @section: product-image;
+ * @extends: _column;
+ */
+.product-image {
+  width: 16.663198%;
+  background: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7") no-repeat center / cover transparent;
+}
+
+/**
+ * @section: product-info;
+ * @extends: _column;
+ */
+.product-info {
+  width: 70.832119%;
+  padding: .5rem;
+}
+.product-name {
+  font: 300 2.4em/1 "Lato", sans-serif;
+  letter-spacing: -.025em;
+  margin: 0 0 .125em;
+}
+.price {
+  line-height: 1;
+  text-align: right;
+}
+.product-single-price {
+  margin-top: -1rem;
+  font-size: 2.4em;
+}
+
+/**
+ * @section: product-modifiers;
+ * @extends: _column;
+ */
+.product-modifiers {
+  width: 12.496358%;
+  text-align: right;
+  border-left: 1px solid #bdc3c7;
+}
+.product-subtract,
+.product-plus,
+.product-qty {
+  width: 33.330557%;
+  background-color: transparent;
+  color: #686868;
+  text-align: center;
+}
+.product-qty {
+  padding: .35em .75em;
+}
+.product-remove {
+  font-size: .875em;
+  margin-top: 3.35rem;
+  background-color: #e74c3c;
+  color: #ecf0f1;
+  width: 100%;
+  visibility: hidden;
+}
+.product-modifiers:hover .product-remove {
+  visibility: visible;
+}
+.product-remove:before {
+  margin-right: .5em;
+}
+.product-remove:hover {
+  background-color: #c0392b;
+}
+.product-total-price {
+  border-top: 1px solid #bdc3c7;
+  color: #95a5a6;
+  font-size: 1.25em;
+  padding: .5rem;
+}
+.shopping-cart--list-item:hover .product-total-price {
+  background-color: #3498db;
+  color: #ecf0f1;
+}
+
+/**
+ * @section: cart-totals;
+ * @extends: _grid;
+ */
+.cart-totals {
+  border-top: 1px solid #bdc3c7;
+  margin-bottom: 3rem;
+}
+.cart-totals ._column {
+  width: 19.984013%;
+  padding: .5rem;
+  line-height: 1.2;
+}
+.cart-totals ._column:not(:last-of-type) {
+  border-right: 1px solid #bdc3c7;
+}
+.cart-totals ._column:first-of-type {
+  padding-left: 0;
+}
+.cart-totals-key {
+  font-size: 1.125em;
+  color: #bdc3c7;
+}
+.cart-totals ._column:hover .cart-totals-value,
+.cart-totals ._column:hover .cart-totals-key {
+  color: #333;
+}
+.cart-totals-value {
+  font-size: 2em;
+}
+._column.checkout {
+  text-align: right;
+  padding: 0;
+  margin-top: 1.5em;
+  vertical-align: middle;
+}
+.checkout-btn:before {
+  margin-right: .5em;
+}
+._btn.checkout-btn:hover {
+  background-color: #2980b9;
+}
+
+/**
+ * Animations
+ */
+.product-remove,
+.cart-totals * {
+  transition: all .2s ease;
+}
+.closing {
+  transition: all .5s ease;
+  transform: translate3d(0, -100%, 0);
+  opacity: 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.winkelkar{
+	
+	display: flex;
+	flex-direction: row wrap;
+	justify-content: space-between;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	
+	
+	
+	}
+
+.winkelkar>figure>img{
+	
+	width: 30%;
+	
+	
+	}
+
+
+
+
+.betalen{
+	
+	width: 30%;
+	margin-top: 5%;
+	margin: 0 auto;
+	}
+
+
+.betalen>h1{
+	
+	margin-bottom: 2%;
+	font-family: "bebas neue";
+	font-size: 30px;
+	}
+
+	
+
+.betalen>h2{
+	
+font-weight: 200;
+	font-family: "bebas neue";
+	margin-right: 14%;
+	
+	
+	
+	
+}
+
+
+.betalen>button{
+	
+	background-color: black;
+	color:white;
+	font-family: "bebas neue";
+font-size: 25px;
+	border-radius: 10px;
+	margin-left: 35%;
+	cursor: pointer;
+	
+	}
+
+
+
+footer>img {
+  
+width: 10%;
+}
+
+footer{
+	
+	
+	
+}
+
+
+
+
+
+@media screen and (max-width:576px){
+
+
+
+	.container{
+		
+		flex-direction: column;
+	text-align: center;
+		
+	}
+
+
+
+
+
+
+
+
+
+
+
+.nav>li>span{
+
+
+display: none;
+}
+
+
+.nav>li{
+
+
+display: block;
+
+
+}
+
+.nav2>li{
+
+
+display: block;
+
+ 
+
+.nav2>li>span{
+
+
+display: none;
+}
+
+
+
+
+
+.intro{
+
+display: none;
+
+}
+
+}
+
+	
+	.product{
+		
+		
+		flex-direction: column;
+	}
+	
+	
+	
+	.winkelkar{
+		
+		flex-direction: column;
+		
+		
+		
+	}
+	
+	
+		
+		
+	#section1>p{
+		
+		text-align: center;
+		width: 80%;
+		margin: 0 auto;
+		
+		
+	}
+	
+	
+		
+	#section1>p{
+		
+		text-align: center;
+		width: 80%;
+		margin: 0 auto;
+		
+		
+	}
+		
+	#section2>p{
+		
+		text-align: center;
+		width: 80%;
+		margin: 0 auto;
+		
+		
+	}
+	
+		
+	#section3>p{
+		
+		text-align: center;
+		width: 80%;
+		margin: 0 auto;
+		
+		
+	}
+	
+

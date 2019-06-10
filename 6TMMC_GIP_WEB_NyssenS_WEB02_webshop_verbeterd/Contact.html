@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+		<title>Webshop</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+	 	 <link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" href="css/stijl.css">
+    
+
+    
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		  // Add smooth scrolling to all links
+		  $("a").on('click', function(event) {
+
+			// Make sure this.hash has a value before overriding default behavior
+			if (this.hash !== "") {
+			  // Prevent default anchor click behavior
+			  event.preventDefault();
+
+			  // Store hash
+			  var hash = this.hash;
+
+			  // Using jQuery's animate() method to add smooth page scroll
+			  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+			  $('html, body').animate({
+				scrollTop: $(hash).offset().top
+			  }, 800, function(){
+
+				// Add hash (#) to URL when done scrolling (default click behavior)
+				window.location.hash = hash;
+			  });
+			} // End if
+		  });
+		});
+	</script>
+	  
+	 </head>
+
+
+<body>
+<header>
+
+<ul class="nav">
+  
+  <li><a href="verleden.html">YESTERDAY</a><span>&sol;</span></li>
+  <li><a href="Now.html">NOW</a></li>
+  <li><img src="img/foto2.svg"></li>
+  <li><a href="Tommorow.html">TOMMOROW</a><span>&sol;</span></li>
+  <li><a href="index.html">Home</a></li>
+     <li><a href="winkelkarretje.html" id="winkelkarretje"><img src="img/winkelkarretje.png"></li></a>
+	  
+	  
+</ul>
+	
+	
+	
+	<div class="container">
+		
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+	  
+	  <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your E-mail.">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Belgium</option>
+      <option value="canada">Netherlands</option>
+      <option value="usa">France</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+		
+		<figure>
+		<img src="img/gsm_uitsnijden9.png" alt="Cinque Terre">
+		</figure>
+		
+		
+</div>
+	
+	
+	
+	
+	
+	 
+	  
+	<footer class="footer-basic-centered">
+
+			<p class="footer-company-motto">Webshop Phones</p>
+
+			<p class="footer-links">
+				<a href="#">Home</a>
+				·
+				<a href="#">Blog</a>
+				·
+				<a href="#">Pricing</a>
+				·
+				<a href="#">About</a>
+				·
+				<a href="#">Faq</a>
+				·
+				<a href="#">Contact</a>
+			</p>
+
+			<p class="footer-company-name">Viso Mariakerke &copy; 2019</p>
+
+		</footer>
+	 
+	 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	</body>
+	</html>
